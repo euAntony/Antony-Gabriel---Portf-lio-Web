@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Capa do convite digital do primeiro aniversário do Benjamin</title>
+  <desc id="desc">Tela de abertura em tons de azul-claro, com nuvens, estrelas e um cartão branco com o título Um momento especial se aproxima.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9f0ff"/>
+      <stop offset=".58" stop-color="#eff8ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="button" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3984f6"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#8db9d8" flood-opacity=".28"/>
+    </filter>
+    <filter id="cloudShadow" x="-30%" y="-50%" width="160%" height="200%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#91c8ea" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="700" fill="url(#sky)"/>
+  <g fill="#fff" opacity=".86" filter="url(#cloudShadow)">
+    <g transform="translate(80 105)"><ellipse cx="105" cy="45" rx="100" ry="34"/><circle cx="67" cy="35" r="42"/><circle cx="128" cy="22" r="54"/><circle cx="177" cy="39" r="39"/></g>
+    <g transform="translate(900 125) scale(.8)"><ellipse cx="105" cy="45" rx="100" ry="34"/><circle cx="67" cy="35" r="42"/><circle cx="128" cy="22" r="54"/><circle cx="177" cy="39" r="39"/></g>
+    <g transform="translate(905 520) scale(.62)"><ellipse cx="105" cy="45" rx="100" ry="34"/><circle cx="67" cy="35" r="42"/><circle cx="128" cy="22" r="54"/><circle cx="177" cy="39" r="39"/></g>
+  </g>
+  <g fill="#f5c95d" opacity=".95">
+    <path d="M245 245l8 19 20 8-20 8-8 20-8-20-20-8 20-8z"/>
+    <path d="M930 300l6 14 15 6-15 6-6 15-6-15-15-6 15-6z"/>
+    <path d="M300 520l5 12 13 5-13 5-5 13-5-13-13-5 13-5z"/>
+    <circle cx="850" cy="195" r="5"/><circle cx="365" cy="165" r="4"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="265" y="95" width="670" height="510" rx="32" fill="#fff" fill-opacity=".94" stroke="#c5e6fb" stroke-width="5"/>
+    <rect x="285" y="115" width="630" height="470" rx="24" fill="none" stroke="#e3f2fc" stroke-width="2"/>
+  </g>
+  <rect x="420" y="166" width="360" height="40" rx="20" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="600" y="192" text-anchor="middle" fill="#2563eb" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing=".4">UM MOMENTO ESPECIAL SE APROXIMA</text>
+  <text x="600" y="295" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif" font-size="56" font-weight="700">1º Aninho do</text>
+  <text x="600" y="360" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif" font-size="68" font-weight="700">Benjamin!</text>
+  <text x="600" y="414" text-anchor="middle" fill="#52657e" font-family="Arial, sans-serif" font-size="22" font-style="italic">“Por este filho nós orávamos e o Senhor</text>
+  <text x="600" y="444" text-anchor="middle" fill="#52657e" font-family="Arial, sans-serif" font-size="22" font-style="italic">ouviu nossa oração.”</text>
+  <text x="600" y="472" text-anchor="middle" fill="#8291a5" font-family="Arial, sans-serif" font-size="16">— 1 Samuel 1:27</text>
+  <rect x="442" y="510" width="316" height="58" rx="29" fill="url(#button)"/>
+  <text x="600" y="547" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="21" font-weight="700">Abra o convite</text>
+</svg>
